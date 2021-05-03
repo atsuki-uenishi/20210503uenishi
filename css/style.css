@@ -1,0 +1,61 @@
+
+/* メニュー */
+nav {
+    color: blue;
+    display: flex;
+    margin: 0 30px;
+}
+
+nav h2 {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* メイン */
+div {
+    position: relative;
+    margin: 0 10px;
+}
+
+img {
+    width: 600px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+.box {
+    background-color: #000088;
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+}
+
+div p {
+    font-size: 60px;
+    margin: 0 10px;
+    position: absolute;
+    top: 270px;
+}
+
